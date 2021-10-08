@@ -14,6 +14,8 @@
       margin: -2px;
       padding: 20px;
       border: 0px;
+      width: 40%;
+      margin: auto;
     }
   </style>
   <body>
@@ -61,8 +63,8 @@
       public function createCard() {
         echo "<div class=\"card\" style=\"background-color: $this->bgcolor\">";
 
-        echo "<h2 style=\"text-transform: uppercase\">$this->brand</h2>";
-        echo "<h2 style=\"text-transform: uppercase\">$this->modell</h2>";
+        echo "<h2 style=\"text-transform: uppercase; padding-left: 30%\">$this->brand</h2>";
+        echo "<h2 style=\"text-transform: uppercase; padding-left: 30%\">$this->modell</h2>";
 
         echo "<div style=\"text-align: center\">";
 
